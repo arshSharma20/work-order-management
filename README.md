@@ -26,18 +26,22 @@ Inspired by my experience as a Field Service Technician at Bell Canada, where ma
 | Version Control | Git, GitHub |
 
 ## Project Structure
+
+```
 work-order-management/
 ├── src/main/java/com/workorder/api/
-│   ├── ApiApplication.java        # Entry point
-│   ├── WorkOrder.java             # Entity / DB model
-│   ├── WorkOrderRepository.java   # Database layer
-│   └── WorkOrderController.java   # REST API endpoints
+│   ├── ApiApplication.java
+│   ├── WorkOrder.java
+│   ├── WorkOrderRepository.java
+│   └── WorkOrderController.java
 ├── src/main/resources/
-│   └── application.properties     # DB configuration
+│   └── application.properties
 ├── frontend/
 │   └── src/
-│       └── App.js                 # React frontend
-└── pom.xml                        # Maven dependencies
+│       └── App.js
+└── pom.xml
+```
+
 ## API Endpoints
 
 | Method | Endpoint | Description |
